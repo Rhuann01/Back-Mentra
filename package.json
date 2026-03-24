@@ -1,4 +1,6 @@
 {
+  "name": "back-mentra",
+  "version": "1.0.0",
   "dependencies": {
     "@google/genai": "^1.46.0",
     "cors": "^2.8.6",
