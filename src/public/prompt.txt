@@ -1,0 +1,117 @@
+!IMPORTANTE
+A resposta deve conter APENAS Markdown.
+
+NÃO escreva nenhuma frase antes ou depois do conteúdo.
+NÃO escreva explicações como "Aqui está o desafio".
+NÃO se esqueça que voce tem acesso a coisas como bloco de codigos "```js 
+console.log("Hello word")
+``` que vale para as outras linguagem tambem.
+".
+NÃO se esqueça dos "#" para definir titulos e "##" para subtitulos, e "###" para menores ainda, e outras tags do md, que ajudam a deixar ele mais bonito, tem acesso a tabelas também caso nescessario.
+
+Gere um desafio de programação baseado em desafios de lógica de plataformas como Codewars e LeetCode, com foco em treinar lógica de programação e preparação para entrevistas de emprego.
+
+O desafio deve respeitar o nível da patente do usuário. Quanto maior a patente, maior a complexidade.
+
+Sistema de patentes:
+
+Aprendiz → desafios simples para aprender lógica básica (if, variáveis, operações simples)
+Estagiário → desafios simples para aprender lógica básica (if, variáveis, operações simples) com adendo de foco a mais de desafios do mercado de trabalho.
+Junior → desafios envolvendo arrays, strings, loops e funções
+Junior → desafios envolvendo arrays, strings, loops e funções
+Pleno → problemas de lógica mais complexa, manipulação de dados e início de algoritmos
+Senior → desafios nível entrevista técnica, com algoritmos, otimização e raciocínio mais profundo
+
+
+Estrutura obrigatória da resposta:
+
+Título do Problema
+
+Descrição:
+Explique o problema de forma clara.
+
+Entrada:
+Explique o que a função recebe.
+
+Saída:
+Explique o que a função deve retornar.
+
+Regras / Restrições:
+Liste limitações do problema.
+
+Exemplos:
+Mostre exemplos de entrada e saída.
+
+Assinatura da função:
+Mostre a assinatura da função usando a linguagem especificada.
+
+Estrutura obrigatória da resposta:
+
+Título do Problema
+
+Descrição:
+Explique o problema de forma clara.
+
+Entrada:
+Explique o que a função recebe.
+
+Saída:
+Explique o que a função deve retornar.
+
+Regras / Restrições:
+Liste limitações do problema.
+
+Exemplos:
+Mostre exemplos de entrada e saída.
+
+Assinatura da função:
+Mostre a assinatura da função usando a linguagem especificada.
+
+Regras adicionais:
+
+O desafio deve focar em lógica, arrays, strings, matemática ou manipulação de dados
+O problema deve incentivar pensamento lógico
+A descrição deve ser clara e didática
+Não escreva solução
+Não escreva explicações extras
+Retorne apenas o desafio em Markdown
+
+Sua resposta deve conter apenas o conteúdo solicitado.
+Qualquer texto fora da estrutura será considerado erro.
+
+exemplo: 
+# Números Únicos
+
+## Descrição
+Crie uma função que receba um array de números inteiros e retorne a soma dos números que aparecem **apenas uma vez** no array.  
+Se um número aparecer mais de uma vez, ele **não deve ser incluído na soma**.
+
+## Entrada
+Um **array de números inteiros**.
+
+## Saída
+Um **número inteiro** representando a soma dos números que aparecem apenas uma vez no array.
+
+## Regras / Restrições
+- O array pode conter números **positivos e negativos**  
+- O array pode conter **números repetidos**  
+- Se **nenhum número for único**, a função deve retornar **0**  
+- O tamanho do array pode variar de **1 até 1000 elementos**
+
+## Exemplos
+
+sumUnique([1, 2, 3, 2]) -> 4  
+Explicação: apenas **1** e **3** aparecem uma única vez
+
+sumUnique([4, 5, 4, 6]) -> 11  
+Explicação: apenas **5** e **6** aparecem uma única vez
+
+sumUnique([7, 7, 7]) -> 0  
+Explicação: nenhum número aparece apenas uma vez
+
+## Assinatura da função
+
+function sumUnique(arr) {}
+
+Sua resposta deve conter apenas o conteúdo solicitado.
+Qualquer texto fora da estrutura será considerado erro.
