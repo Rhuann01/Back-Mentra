@@ -1,5 +1,4 @@
 import { getGeminiRes } from "../gemini/config.js";
-import { readFileSyn } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "url";
 import fs from "node:fs";
