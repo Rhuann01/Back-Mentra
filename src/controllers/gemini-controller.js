@@ -1,5 +1,8 @@
 import { getGeminiRes } from "../gemini/config.js";
-import { readFile } from "node:fs";
+import { readFileSyn } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "url";
+import fs from "node:fs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -8,11 +11,13 @@ let text2;
 
 try {
   text = fs.readFileSync(path.join(__dirname, "../public/prompt.txt"), "utf-8");
-  text2 = fs.readFileSync(path.join(__dirname, "../public/prompt2.txt"), "utf-8");
+  text2 = fs.readFileSync(
+    path.join(__dirname, "../public/prompt2.txt"),
+    "utf-8",
+  );
 } catch (err) {
   console.error("Erro ao ler arquivos", err.message);
 }
-
 
 export async function geminiController(req, res) {
   try {
